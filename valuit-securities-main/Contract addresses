@@ -1,0 +1,33 @@
+Mumbai Matic Network
+--------------------
+Gamma :
+
+Mirror Token deployed to : 0xAd048CC0b433D30Ab416A93B2339063c36f48fB4
+Valuit Security Token deployed to : 0xD836EedD29D27aF1F0ee6f571278eB82CCF9E8bc
+Crowdsale Contract deployed to : 0x97c245336F86742De787377c5Db9041be54ed264
+
+hh verify --network mumbai --constructor-args arguments.js 0xD836EedD29D27aF1F0ee6f571278eB82CCF9E8bc --contract contracts/SecurityToken.sol:SecurityToken
+hh verify --network mumbai --constructor-args argumentsMirrorToken.js 0xAd048CC0b433D30Ab416A93B2339063c36f48fB4 --contract contracts/MirrorToken.sol:MirrorToken
+hh verify --network mumbai --constructor-args argumentsCrowdsale.js 0x97c245336F86742De787377c5Db9041be54ed264 --contract contracts/SecurityCrowdsale.sol:SecurityCrowdsale
+
+Stella :
+
+Mirror Token deployed to : 0x35e295eCA8928463ac8EC13A80Bf7e29baB2fFA9
+Valuit Security Token deployed to : 0x994f60079eDCb05cF1346B0aA3E05Ec7612481e6
+Crowdsale Contract deployed to : 0x6895466472bcFc10B8DdF77905B0f6186998a7b3
+
+hh verify --network mumbai --constructor-args arguments.js 0x994f60079eDCb05cF1346B0aA3E05Ec7612481e6 --contract contracts/SecurityToken.sol:SecurityToken
+hh verify --network mumbai --constructor-args argumentsMirrorToken.js 0x35e295eCA8928463ac8EC13A80Bf7e29baB2fFA9 --contract contracts/MirrorToken.sol:MirrorToken
+hh verify --network mumbai --constructor-args argumentsCrowdsale.js 0x6895466472bcFc10B8DdF77905B0f6186998a7b3 --contract contracts/SecurityCrowdsale.sol:SecurityCrowdsale
+
+Luna :
+
+Mirror Token deployed to : 0x0297F03f2e2C1AD7850617D5d1ED3Dd240a9aD83
+Valuit Security Token deployed to : 0x885498E3249977CB80281D988EFfd807f34B632d
+Crowdsale Contract deployed to : 0x13B54376a6955ff590cB5E421D00d2E94529c119
+
+Polaris :
+
+Mirror Token deployed to : 0x7013248B2180bD02ef1dFFFFF6194aDdfaE21288
+Valuit Security Token deployed to : 0x3D3C1Ba869b581fF20dD0E56f001f6261bB79ba4
+Crowdsale Contract deployed to : 0x53145f880349Ef247b364c2C27eF4170B1Cf31D4
